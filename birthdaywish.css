@@ -1,0 +1,88 @@
+body{
+    text-align: center;
+    font-family: 'Happy Monkey', cursive;
+    background: linear-gradient(#a2d2ff, pink);
+    color: #ffffff;
+    margin: 10px 0 0 0;
+}
+    
+#eben-img{
+    border-radius: 100%;
+    width: 150px;
+    border: 5px solid pink;
+}
+h1, h2, h3, p{
+    text-shadow: 0px 0px 1px black;
+}
+#pink-age{
+    background: pink ;
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom: 0px;
+}
+
+#pink-date{
+    background: pink;
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.wish-sec{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.gift-wrapper{
+    width: 400px;
+    height: 400px;
+    border: 5px solid white;
+    border-radius: 20px;
+    background: url(./gift\ .jpg) center/cover no-repeat scroll;
+    margin:0px auto;
+}
+#gift-friend{
+    height: 200px;
+}
+#gift-friend:hover{
+    background: url("./friendgif.gif") center/cover no-repeat;
+}
+
+
+#gift-happy:hover{
+    background: url("./happy-birthday.gif") center/cover no-repeat;
+}
+
+#gift-hot:hover{
+    background: url("./birthday-happy.gif") center/cover no-repeat;
+    
+}
+#gift-genius:hover{
+    background: url("./geniusgif.gif") center/cover no-repeat;
+}
+#gift-badass:hover{
+    background: url("./badassgif.gif") center/cover no-repeat;
+}
+.happy-text{
+    text-shadow: 0px 0px 2px black;
+    margin-bottom: 0px;
+}
+#happy-text-mar{
+    margin-bottom: 20px
+}
+.hover-text{
+    text-shadow: 0px 0px 2px black;
+    margin-top: 5px;
+}
+#foot-under{
+    text-decoration: underline;
+}
+#foot-link{
+    text-decoration: none;
+    color: white;
+}
+p{
+    font-size: 15px;
+    font-weight: bold;
+    margin: 30px 0px;
+}
